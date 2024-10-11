@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <script>
+        //alert("Welcome to Js");
+        //confirm("Are you sure to continue");
+        function add() {
+            var a = 100;
+            var b = 43;
+            var c = a + b;
+            alert('sum is :' + c);
+        }
+
+        function uvalue() {
+            var a = parseFloat(prompt('Enter Value :'));
+            var b = parseFloat(prompt('Enter Value ;'));
+            var c = a + b;
+            alert(c);
+        }
+
+        function chp() {
+            var element = document.getElementById("abc");
+            element.style.color = 'white';
+            element.style.backgroundColor = 'black';
+            element.innerHTML = "My Name is Sher Shah";
+        }
+        alert("I <3 u");
+    </script>
+    <input type="button" value="User Sum" onclick="uvalue()">
+    <input type="button" value=" show sum" onclick="add()">
+    <p id="abc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, delectus
+        voluptatibus ipsam amet illo vitae eligendi consequatur voluptates,
+        dolore id reprehenderit atque doloremque
+        veniam quos est officiis ratione excepturi nobis!</p>
+    <input type="button" value="change-color" onclick="chp()">
+
+    <h1>JAVA SCRIPT INTRO</h1>
+</body>
+
+</html>

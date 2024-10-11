@@ -1,0 +1,25 @@
+.container h1 {
+    color: #433D8B;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    border: 5px solid #C8ACD6;
+    padding: 10px 20px;
+}
+p {
+    color: #2E236C;
+    padding: 5px 10px;
+    border: 5px dotted #C8ACD6;
+    border-top: none;
+    font-size: 24px;
+    font-family: 'Arial Narrow';
+}
+
+.col a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #433D8B;
+}
+.col a:hover{
+    color: #2E236C;
+}
